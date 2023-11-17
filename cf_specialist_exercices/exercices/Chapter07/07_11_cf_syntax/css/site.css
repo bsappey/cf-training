@@ -1,0 +1,27 @@
+*
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul.main-menu
+{
+
+}
+
+ul.main-menu li
+{
+	display: inline;
+	background-color: coral;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+ul.main-menu li a
+{
+	text-decoration: none;
+}
+
+ul.main-menu li a:hover
+{
+	text-decoration: underline
+}
