@@ -32,7 +32,7 @@
                     <li><a href="exercices/Chapter02/02_02_cfoutput.cfm" target="_blank">Printing data on the screen.</a></li>
                     <li><a href="exercices/Chapter02/02_03_cfscript.cfm" target="_blank">Discovering the cfscript syntax.</a></li>
                     <li><a href="exercices/Chapter02/02_04_commentingTag.cfm" target="_blank">Commenting code in tag syntax.</a></li>
-                    <li><a href="exercices/Chapter02/02_05_commentingScrit.cfm" target="_blank">Commenting code in cfscript.</a></li>
+                    <li><a href="exercices/Chapter02/02_05_commentingScript.cfm" target="_blank">Commenting code in cfscript.</a></li>
                     <li><a href="exercices/Chapter02/02_06_cfdump.cfm" target="_blank">Using &lt;cfdump&gt; and writeDump().</a></li>
                     <li><a href="http://localhost:2020/CFIDE/administrator/">Touring the ColdFusion administrator.</a></li>
                 </ul>
