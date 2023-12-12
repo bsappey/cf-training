@@ -182,11 +182,11 @@
 
                 <h1>Chapter #chapterNumber# - Caching</h1>
                 <ul>
-                    <li><a href="#folderName#/09_caching/01_cache.cfm">01_cache.cfm</a></li>
-                    <li><a href="#folderName#/09_caching/02_getting_cache.cfm">02_getting_cache.cfm</a></li>
-                    <li><a href="#folderName#/09_caching/03_setting_cache.cfm">03_setting_cache.cfm</a></li>
-                    <li><a href="#folderName#/09_caching/04_deleting_cache.cfm">04_deleting_cache.cfm</a></li>
-                    <li><a href="#folderName#/09_caching/05_caching_options.cfm">05_caching_options.cfm</a></li>
+                    <li><a href="#folderName#/01_cache.cfm">01_cache.cfm</a></li>
+                    <li><a href="#folderName#/02_getting_cache.cfm">02_getting_cache.cfm</a></li>
+                    <li><a href="#folderName#/03_setting_cache.cfm">03_setting_cache.cfm</a></li>
+                    <li><a href="#folderName#/04_deleting_cache.cfm">04_deleting_cache.cfm</a></li>
+                    <li><a href="#folderName#/05_caching_options.cfm">05_caching_options.cfm</a></li>
                 </ul>
             </li>
             <li>
