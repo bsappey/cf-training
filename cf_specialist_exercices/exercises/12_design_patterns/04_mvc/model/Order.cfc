@@ -1,16 +1,3 @@
-/*
-    tOrders
-    "INSERT INTO tOrders
-    ( OrderID, OrderDate, CustomerName, Price )
-    VALUES ( :OrderID, :OrderDate, :CustomerName, :Price )",
-    {
-        OrderID = { value = "101", cfsqltype = 'INTEGER' },
-        OrderDate = { value = "2/03/2019", cfsqltype = 'TIMESTAMP' },
-        CustomerName = { value = "Vivian Campbell", cfsqltype = 'VARCHAR' },
-        Price = { value = "125.00", cfsqltype = 'NUMERIC' }
-    }
-*/
-
 component 
 {
     public any function init()
@@ -99,6 +86,5 @@ component
 		}
 
 		return QueryExecute( sql, params );
-
     }
 }
