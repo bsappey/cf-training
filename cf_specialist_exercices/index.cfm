@@ -276,6 +276,12 @@
                             <li><a href="#folderName#/02_singletons/singleton-example-2.cfm" target="_blank">Singleton Example 2</a></li>
                         </ul>
                     </li>
+                    <li>
+                        MVC
+                        <ul>
+                            <li><a href="#folderName#/04_mvc/index.cfm" target="_blank">Sample MVC App</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
 
