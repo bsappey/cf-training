@@ -7,7 +7,7 @@ component
 	
 	public query function select( numeric UserID )
 	{
-		var sql    = "SELECT UserID, FirstName, LastName, Password, Email, HeadshotFileName FROM tUsers";
+		var sql    = "SELECT UserID, FirstName, LastName, Password, Email FROM tUsers";
 		var params = {};
 
 		if( arguments.keyExists( "UserID" ) )
@@ -19,17 +19,16 @@ component
 		return QueryExecute( sql, params );
 	}
 
-	public void function insert( FirstName, LastName, Email, Password, HeadshotFileName )
+	public void function insert( FirstName, LastName, Email, Password )
 	{
-		var sql = "INSERT INTO tUsers ( FirstName, LastName, Password, Email, HeadshotFileName ) 
-			       VALUES ( :FirstName, :LastName, :Password, :Email, :HeadshotFileName )";
+		var sql = "INSERT INTO tUsers ( FirstName, LastName, Password, Email ) 
+			       VALUES ( :FirstName, :LastName, :Password, :Email )";
 
 		var params = {
 			FirstName   	 = { value = arguments.FirstName, cfsqltype="varchar" },
 			LastName   		 = { value = arguments.LastName, cfsqltype="varchar" },
 			Password   		 = { value = arguments.Password, cfsqltype="varchar" },
-			Email   		 = { value = arguments.Email, cfsqltype="varchar" },
-			HeadshotFileName = { value = arguments.HeadshotFileName, cfsqltype="varchar" }
+			Email   		 = { value = arguments.Email, cfsqltype="varchar" }
 		};
 
 		QueryExecute( sql, params );
@@ -68,7 +67,7 @@ component
 
 	public query function search( FirstName, LastName, Email, Password )
 	{
-		var sql = "SELECT userID, FirstName, LastName, Password, Email, HeadshotFileName FROM tUsers WHERE 1=1 ";
+		var sql = "SELECT userID, FirstName, LastName, Password, Email FROM tUsers WHERE 1=1 ";
 		var params = {};
 
 		if( arguments.keyExists( "FirstName" ) )
@@ -100,4 +99,17 @@ component
 
 		return QueryExecute( sql, params );
 	}
+
+	public void function save( UserID, FirstName, LastName, Email, Password )
+	{
+		if( structKeyExists( arguments, "UserID" ) && isNumeric( arguments.UserID ) )
+		{
+			this.update( argumentCollection=arguments );
+		}
+		else
+		{
+			this.insert( argumentCollection=arguments );
+		}
+	}
+	
 }

@@ -7,11 +7,11 @@ component
 
     remote void function saveUser( UserID, FirstName, LastName, Email, Password )
     {
-        application.userModel.update( arguments.UserID,
-                                      arguments.FirstName,
-                                      arguments.LastName,
-                                      arguments.Email,
-                                      arguments.Password );
+        application.userModel.save( arguments.UserID,
+                                    arguments.FirstName,
+                                    arguments.LastName,
+                                    arguments.Email,
+                                    arguments.Password );
 
         location( "../user-list.cfm", false );
     }
