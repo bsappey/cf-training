@@ -35,14 +35,13 @@ component
 		QueryExecute( sql, params );
 	}
 
-	public void function update( UserID, FirstName, LastName, Email, Password, HeadshotFileName )
+	public void function update( UserID, FirstName, LastName, Email, Password )
 	{
 		var sql = "UPDATE tUsers 
 				      SET FirstName = :FirstName, 
 					  	  LastName = :LastName, 
 						  Password = :Password,
-						  Email = :Email,
-						  HeadshotFileName = :HeadshotFileName
+						  Email = :Email
 					WHERE UserID = :UserID";
 
 		var params = {
@@ -50,8 +49,7 @@ component
 			FirstName   	 = { value = arguments.FirstName, cfsqltype="varchar" },
 			LastName   		 = { value = arguments.LastName, cfsqltype="varchar" },
 			Password   		 = { value = arguments.Password, cfsqltype="varchar" },
-			Email   		 = { value = arguments.Email, cfsqltype="varchar" },
-			HeadshotFileName = { value = arguments.HeadshotFileName, cfsqltype="varchar" }
+			Email   		 = { value = arguments.Email, cfsqltype="varchar" }
 		};
 
 		QueryExecute( sql, params );

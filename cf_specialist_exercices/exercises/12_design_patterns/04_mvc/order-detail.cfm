@@ -3,7 +3,7 @@
 <cfoutput>
     <h1>Order ## #qOrderDetails.OrderID#</h1>
 
-    <form method="post" action="./controllers/orderController.cfc?method=saveOrder">
+    <form name="frmOrder" method="post" action="./controllers/orderController.cfc?method=saveOrder">
         <input type="hidden" name="OrderID" value="#qOrderDetails.OrderID#" />
         <div>
             <label for="CustomerName">Customer</label>
