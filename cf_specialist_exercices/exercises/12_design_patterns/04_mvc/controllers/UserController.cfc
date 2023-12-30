@@ -13,6 +13,7 @@ component
                                     arguments.Email,
                                     arguments.Password );
 
+        session.userpage.statusmsg = "User saved successfully.";
         location( "../user-list.cfm", false );
     }
 

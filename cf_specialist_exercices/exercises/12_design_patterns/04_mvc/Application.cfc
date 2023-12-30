@@ -2,8 +2,10 @@ component
 {
 	variables.dbPath = expandPath("/ressources/database/Derby/");
 	
-	this.name 		= "MVCSampleApp";
-    this.datasource = "CFTrainingDSN";
+	this.name 			   = "MVCSampleApp";
+    this.datasource    	   = "CFTrainingDSN";
+	this.sessionManagement = true;
+	this.sessionTimeout    = createTimeSpan(0, 0, 45, 0);// 45 mins	
 
 	this.datasources = {
         CFTrainingDSN = {

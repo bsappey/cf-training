@@ -3,6 +3,10 @@
 <cfoutput>
     <h1>Users</h1>
 
+    <cfif isDefined( "session.userpage.statusmsg" )>
+        <div style="color:green;">#session.userpage.statusmsg#</div>
+    </cfif>
+
     <table>
         <thead>
             <tr>
