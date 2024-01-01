@@ -240,16 +240,7 @@
             </li>
             <li>
                 <cfset chapterNumber = "11" />
-                <cfset folderName    = "exercises/10_database_operations" />
-
-                <h1>Chapter #chapterNumber# - Design Patterns</h1>
-                <ul>
-                    <li></li>
-                </ul>
-            </li>
-            <li>
-                <cfset chapterNumber = "12" />
-                <cfset folderName    = "exercises/12_object_oriented_programming" />
+                <cfset folderName    = "exercises/11_object_oriented_programming" />
 
                 <h1>Chapter #chapterNumber# - Object-oriented programming in ColdFusion</h1>
                 <ul>
@@ -296,6 +287,29 @@
                     <li><a href="#folderName#/31_cachingVariables.cfm" target="_blank">Caching variables.</a></li>
                 </ul>
             </li>
+            <li>
+                <cfset chapterNumber = "12" />
+                <cfset folderName    = "exercises/12_design_patterns" />
+
+                <h1>Chapter #chapterNumber# - Design Patterns</h1>
+                <ul>
+                    <li>Singletons
+                        <ul>
+                            <li><a href="#folderName#/02_singletons/transient-example-1.cfm" target="_blank">Transient Example 1</a></li>
+                            <li><a href="#folderName#/02_singletons/transient-example-2.cfm" target="_blank">Transient Example 2</a></li>
+                            <li><a href="#folderName#/02_singletons/singleton-example-1.cfm" target="_blank">Singleton Example 1</a></li>
+                            <li><a href="#folderName#/02_singletons/singleton-example-2.cfm" target="_blank">Singleton Example 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        MVC
+                        <ul>
+                            <li><a href="#folderName#/04_mvc/index.cfm" target="_blank">Sample MVC App</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
             <li>
                 <cfset chapterNumber = "13" />
                 <cfset folderName    = "exercises/13_ORM" />
