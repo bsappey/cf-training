@@ -1,0 +1,30 @@
+{
+    "author":"CFSPECIALIST",
+    "bugs":"",
+    "changelog":"",
+    "contributors":[],
+    "description":"",
+    "devDependencies":{},
+    "documentation":"",
+    "homepage":"",
+    "engines":[
+        {
+            "type":"adobe",
+            "version":"2023"
+        }
+    ],
+    "instructions":"",
+    "name":"CFSPECIALIST",
+    "private":true,
+    "repository":{},
+    "scripts":{
+       "onServerInstall":"cfpm install caching,adminapi,derby"
+    },
+    "shortDescription":"CFSPECIALIST",
+    "slug":"CFSPECIALIST-APP",
+    "dependencies":{
+        "commandbox-cfconfig":">=1.0.6"
+    },
+    "version":"1.0.0",
+    "openbrowser":true
+}

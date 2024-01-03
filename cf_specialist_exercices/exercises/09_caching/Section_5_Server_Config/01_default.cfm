@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Using cfquery</title>
+	<title>Server Config</title>
 </head>
 <body>
-<h1>Using cache</h1>
-
+This section contains no code
 </body>
 </html>
