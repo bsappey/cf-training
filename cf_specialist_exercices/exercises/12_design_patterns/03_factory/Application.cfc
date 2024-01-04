@@ -12,12 +12,15 @@ component
             url = "jdbc:derby:#variables.dbPath#;create=true;MaxPooledStatements=300", 
             driver = "Apache Derby Embedded"
         }
-    };	
+    };
+
+	this.dbType = "derby";
 
 	public boolean function onApplicationStart() 
-	{
-		application.userModel  = new model.User();
-		application.orderModel = new model.Order();
+	{	
+		application.SQLFactory = new model.SQLFactory( this.dbType )
+		application.userModel  = application.SQLFactory.makeMyObject( "User" );
+		application.orderModel = application.SQLFactory.makeMyObject( "Order" );
 		return true; 
 	}
 }

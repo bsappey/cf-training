@@ -1,4 +1,4 @@
-component 
+component
 {
     public any function init()
     {
