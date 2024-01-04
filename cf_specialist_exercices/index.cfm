@@ -293,23 +293,12 @@
 
                 <h1>Chapter #chapterNumber# - Design Patterns</h1>
                 <ul>
-                    <li>Design Patterns Overview
-                        <ul>
-                            <li><a href="#folderName#/01_design_patterns_overview/index.cfm">Overview</a></li>
-                        </ul>
-                    </li>
                     <li>Singletons
                         <ul>
                             <li><a href="#folderName#/02_singletons/transient-example-1.cfm" target="_blank">Transient Example 1</a></li>
                             <li><a href="#folderName#/02_singletons/transient-example-2.cfm" target="_blank">Transient Example 2</a></li>
                             <li><a href="#folderName#/02_singletons/singleton-example-1.cfm" target="_blank">Singleton Example 1</a></li>
                             <li><a href="#folderName#/02_singletons/singleton-example-2.cfm" target="_blank">Singleton Example 2</a></li>
-                        </ul>
-                    </li>
-                    <li>Factory
-                        <ul>
-                            <li><a href="#folderName#/03_factory/factory-example-1.cfm" target="_blank">Factory Example 1</a></li>
-                            <li><a href="#folderName#/03_factory/factory-example-2.cfm" target="_blank">Factory Example 2</a></li>
                         </ul>
                     </li>
                     <li>
