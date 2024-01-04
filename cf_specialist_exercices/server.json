@@ -1,6 +1,6 @@
 {
     "app":{
-        "cfengine":"Adobe@2021.0.9-all-cfpm"
+        "cfengine":"Adobe@2023"
     },
     "web":{
         "http":{
@@ -8,6 +8,7 @@
         }
     },
     "jvm":{
-        "heapSize":512
+        "heapSize":512,
+        "javaVersion":"openjdk17"
     }
 }

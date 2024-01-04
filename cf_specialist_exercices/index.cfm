@@ -179,14 +179,39 @@
             <li>
                 <cfset chapterNumber = "09" />
                 <cfset folderName    = "exercises/09_caching" />
-
+                <cfset subsection    = "Section_1_Basics" />
                 <h1>Chapter #chapterNumber# - Caching</h1>
+                <h5>#replace(subsection, '_', ' ', 'ALL')#</h5>
                 <ul>
-                    <li><a href="#folderName#/01_cache.cfm">01_cache.cfm</a></li>
-                    <li><a href="#folderName#/02_getting_cache.cfm">02_getting_cache.cfm</a></li>
-                    <li><a href="#folderName#/03_setting_cache.cfm">03_setting_cache.cfm</a></li>
-                    <li><a href="#folderName#/04_deleting_cache.cfm">04_deleting_cache.cfm</a></li>
-                    <li><a href="#folderName#/05_caching_options.cfm">05_caching_options.cfm</a></li>
+                    <li><a href="#folderName#/#subsection#/01_setting_cache.cfm">Setting Cache</a></li>
+                    <li><a href="#folderName#/#subsection#/02_getting_cache.cfm">Getting Cache</a></li>
+                    <li><a href="#folderName#/#subsection#/03_setting_cache_time.cfm">Setting Cache Timeouts</a></li>
+                    <li><a href="#folderName#/#subsection#/04_getting_cache_null.cfm">Dealing with null cache objects</a></li>
+                    <li><a href="#folderName#/#subsection#/05_set_get_cache_full.cfm">Complete Example</a></li>
+                </ul>     
+                <cfset subsection = "Section_2_Advanced" />           
+                <h5>#replace(subsection, '_', ' ', 'ALL')#</h5>
+                <ul>
+                    <li><a href="#folderName#/#subsection#/01_dynamic_key.cfm ">Dynamic Cache Keys</a></li>
+                    <li><a href="#folderName#/#subsection#/02_cache_almost_anything.cfm ">Caching Almost Anything</a></li>
+                    <li><a href="#folderName#/#subsection#/03_removing_cache.cfm">Removing items from Cache</a></li>
+                </ul>
+                
+                <cfset subsection = "Section_3_Using_Regions" />           
+                <h5>#replace(subsection, '_', ' ', 'ALL')#</h5>
+                <ul>
+                    <li><a href="#folderName#/#subsection#/01_create_region.cfm ">Creating Regions</a></li>
+                    <li><a href="#folderName#/#subsection#/02_create_region_properties.cfm ">Region Properties</a></li>
+                    <li><a href="#folderName#/#subsection#/03_working_with_regions.cfm">Working with Regions</a></li>
+                </ul>
+
+                <cfset subsection = "Section_4_Output_caching" />           
+                <h5>#replace(subsection, '_', ' ', 'ALL')#</h5>
+                <ul>
+                    <li><a href="#folderName#/#subsection#/01_cfcache_content.cfm ">Caching Content</a></li>
+                    <li><a href="#folderName#/#subsection#/02_cfcache_content_snippit.cfm ">Caching Content Snippit</a></li>
+                    <li><a href="#folderName#/#subsection#/03_cfcache_content_unique.cfm">Caching Content w/ unique urls</a></li>
+                    <li><a href="#folderName#/#subsection#/04_expiring_cache.cfm">Expiring Cache</a></li>
                 </ul>
             </li>
             <li>
