@@ -318,6 +318,12 @@
                             <li><a href="#folderName#/04_mvc/index.cfm" target="_blank">Sample MVC App</a></li>
                         </ul>
                     </li>
+                    <li>
+                        Hollywood
+                        <ul>
+                            <li><a href="#folderName#/05_hollywood/index.cfm" target="_blank">The Hollywood Principle</a></li>
+                        </ul>                        
+                    </li>
                 </ul>
             </li>
 
