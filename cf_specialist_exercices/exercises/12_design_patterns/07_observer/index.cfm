@@ -1,1 +1,1 @@
-observer page
+<h1>Observer Demo</h1>
