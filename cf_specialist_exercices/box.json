@@ -18,7 +18,7 @@
     "private":true,
     "repository":{},
     "scripts":{
-       "onServerInstall":"cfpm install caching,adminapi,derby"
+       "onServerInstall":"cfpm install caching,adminapi,derby,feed"
     },
     "shortDescription":"CFSPECIALIST",
     "slug":"CFSPECIALIST-APP",
