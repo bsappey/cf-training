@@ -324,6 +324,12 @@
                             <li><a href="#folderName#/05_hollywood/index.cfm" target="_blank">The Hollywood Principle</a></li>
                         </ul>                        
                     </li>
+                    <li>
+                        Observer
+                        <ul>
+                            <li><a href="#folderName#/07_observer/index.cfm" target="_blank">Observer Demo</a></li>
+                        </ul>                        
+                    </li>
                 </ul>
             </li>
 
