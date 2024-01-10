@@ -7,6 +7,7 @@ component accessors="true" implements="Subject"
 
     public any function init()
     {
+        setObservers( [] );
         return this;
     }
 
