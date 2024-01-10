@@ -1,6 +1,7 @@
 component accessors="true" implements="Subject"
 {
     property name="observers" type="array";
+
     property name="temperature" type="numeric";
     property name="humidity" type="numeric";
     property name="pressure" type="numeric";
@@ -44,6 +45,7 @@ component accessors="true" implements="Subject"
         setTemperature( arguments.temperature );
         setHumidity( arguments.humidity );
         setPressure( arguments.pressure );
+        
         measurementsChanged();
     }
 }
