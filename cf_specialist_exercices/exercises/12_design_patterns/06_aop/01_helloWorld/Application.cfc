@@ -2,7 +2,6 @@ component
 {
 	this.name                     = "AOP_helloWorld";
     this.mappings[ "/wirebox" ]   = expandPath( "../wirebox" );
-    this.mappings[ "/modelsDir" ] = expandPath( "./models" );
 
     boolean function onApplicationStart()
     {
