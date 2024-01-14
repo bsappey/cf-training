@@ -329,6 +329,7 @@
                         <ul>
                             <li><a href="#folderName#/06_aop/01_helloWorld/index.cfm" target="_blank">AOP Example 1 - Hello World</a></li>
                             <li><a href="#folderName#/06_aop/02_insteadOf/index.cfm" target="_blank">AOP Example 2 - Method Replacement</a></li>
+                            <li><a href="#folderName#/06_aop/03_tryCatch/index.cfm" target="_blank">AOP Example 3 - Try/Catch Blocks</a></li>
                         </ul>
                     </li>
                     <li>
