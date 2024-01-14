@@ -328,6 +328,7 @@
                         Aspect Oriented Programming (AOP)
                         <ul>
                             <li><a href="#folderName#/06_aop/01_helloWorld/index.cfm" target="_blank">AOP Example 1 - Hello World</a></li>
+                            <li><a href="#folderName#/06_aop/02_insteadOf/index.cfm" target="_blank">AOP Example 2 - Method Replacement</a></li>
                         </ul>
                     </li>
                     <li>
