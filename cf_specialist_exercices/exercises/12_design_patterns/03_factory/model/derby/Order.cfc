@@ -1,4 +1,4 @@
-component
+component implements="exercises.12_design_patterns.03_factory.model.IOrderFactory"
 {
     public any function init()
     {

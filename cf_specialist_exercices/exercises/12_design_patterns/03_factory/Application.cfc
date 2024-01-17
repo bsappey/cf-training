@@ -7,6 +7,8 @@ component
 	this.sessionManagement = true;
 	this.sessionTimeout    = createTimeSpan(0, 0, 45, 0);// 45 mins	
 
+	this.mappings[ "/IFactory" ]   = expandPath( "./model/IFactory.cfc" );
+
 	this.datasources = {
         CFTrainingDSN = {
             url = "jdbc:derby:#variables.dbPath#;create=true;MaxPooledStatements=300", 
