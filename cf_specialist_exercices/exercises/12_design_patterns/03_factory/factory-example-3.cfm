@@ -1,6 +1,6 @@
 <cfscript>
-    qUsers     = application.userModel.select();
-    qOrders   = application.orderModel.select();
+    qUsers  = application.userModel.select();
+    qOrders = application.orderModel.select();
 </cfscript>
 
 <cfoutput>

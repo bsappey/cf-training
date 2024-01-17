@@ -310,6 +310,7 @@
                         <ul>
                             <li><a href="#folderName#/03_factory/factory-example-1.cfm" target="_blank">Factory Example 1</a></li>
                             <li><a href="#folderName#/03_factory/factory-example-2.cfm" target="_blank">Factory Example 2</a></li>
+                            <li><a href="#folderName#/03_factory/factory-example-3.cfm" target="_blank">Factory Example 3</a></li>
                         </ul>
                     </li>
                     <li>

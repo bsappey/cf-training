@@ -18,9 +18,11 @@ component
 
 	public boolean function onApplicationStart() 
 	{	
-		application.SQLFactory = new model.SQLFactory( this.dbType )
+		application.SQLFactory = new model.SQLFactory( this.dbType );
+
 		application.userModel  = application.SQLFactory.makeMyObject( "User" );
 		application.orderModel = application.SQLFactory.makeMyObject( "Order" );
+		
 		return true; 
 	}
 }
