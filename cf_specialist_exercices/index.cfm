@@ -295,7 +295,8 @@
                 <ul>
                     <li>Design Patterns Overview
                         <ul>
-                            <li><a href="#folderName#/01_design_patterns_overview/index.cfm">Overview</a></li>
+                            <li><a href="#folderName#/01_design_patterns_overview/array_and_loop.cfm">Array and Loop Example</a></li>
+                            <li><a href="#folderName#/01_design_patterns_overview/design_patterns.cfm">Design Patterns Example</a></li>
                         </ul>
                     </li>
                     <li>Singletons
