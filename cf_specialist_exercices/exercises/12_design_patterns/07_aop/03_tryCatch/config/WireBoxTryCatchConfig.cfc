@@ -21,13 +21,9 @@ component extends="WireBox.system.ioc.config.Binder"
 			]			
 		};
 		
-		map( "constructedMusician" ).to( "#modelsDir#.Musician" )
-									.initArg( name="name", value="George Harrison" )
-						  	 		.initArg( name="instrument", value="Guitar" );
+		map( "constructedMusician" ).to( "#modelsDir#.Musician" );
 
 		// add our AOP adivce
-		mapAspect( "MusicianAdvice" ).to( "#modelsDir#.MusicianAdvice" );
-
 		bindAspect( classes=match().mappings( 'constructedMusician' ), 
 					methods=match().methods( 'getQuarterlyReport' ), 
 					aspects="MusicianAdvice" );
