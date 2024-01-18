@@ -26,9 +26,7 @@ component extends="WireBox.system.ioc.config.Binder"
 									.initArg( name="authorName", value="Shel Silverstein" )
 						  	 		.initArg( name="bookTitle", value="A Light In The Attic" );
 
-		// add our AOP adivce
-// 		mapAspect( "AuthorAdvice" ).to( "#modelsDir#.AuthorAdvice" );
-
+		// add our AOP advice to the displayAuthorDetails() method
 		bindAspect( classes=match().mappings( 'constructedAuthor' ), 
 					methods=match().methods( 'displayAuthorDetails' ), 
 					aspects="AuthorAdvice" );

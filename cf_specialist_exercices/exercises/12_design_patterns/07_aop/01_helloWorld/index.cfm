@@ -9,7 +9,7 @@
     actor2 = new models.Actor();
     actor2.displayInfo();
 
-    // loading the CFC via a Dependency Injection library
+    // loading the CFC via a Dependency Injection/AOP library
     actor3 = application.wirebox.getInstance( "Actor" );
     actor3.displayInfo();
 
