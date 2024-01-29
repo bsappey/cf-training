@@ -1,6 +1,6 @@
 {
     "app":{
-        "cfengine":"Adobe@2023"
+        "cfengine":"adobe@2023"
     },
     "web":{
         "http":{
