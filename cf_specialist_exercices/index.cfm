@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adobe ColdFusion Specialist Certification</title>
-    <link rel="stylesheet" href="ressources/css/normalize.css" />
-    <link rel="stylesheet" href="ressources/css/styles.css" />
+    <link rel="stylesheet" href="resources/css/normalize.css" />
+    <link rel="stylesheet" href="resources/css/styles.css" />
 </head>
 <body>
     <header>
@@ -18,10 +18,10 @@
         <ul>
 
             <li>
-                <cfset chapterNumber = "01" />
+                <cfset chapterNumber = "00" />
                 <cfset folderName    = "exercises/01_intro_to_ColdFusion" />
 
-                <h1>Chapter #chapterNumber# - Introduction to the course</h1>
+                <h1>Introduction to the course</h1>
 
                 <ul>
                     <li><a href="">Welcome.</a></li>
@@ -32,8 +32,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "02" />
-                <cfset folderName    = "exercises/02_intro_to_ColdFusion" />
+                <cfset chapterNumber = "01" />
+                <cfset folderName    = "exercises/01_intro_to_ColdFusion" />
 
                 <h1>Chapter #chapterNumber# - Introduction to ColdFusion</h1>
                 <ul>
@@ -47,8 +47,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "03" />
-                <cfset folderName    = "exercises/03_variables_and_data_types" />
+                <cfset chapterNumber = "02" />
+                <cfset folderName    = "exercises/02_variables_and_data_types" />
 
                 <h1>Chapter #chapterNumber# - Variables and data types</h1>
                 <ul>
@@ -74,8 +74,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "04" />
-                <cfset folderName    = "exercises/04_main_coldfusion_constructs" />
+                <cfset chapterNumber = "03" />
+                <cfset folderName    = "exercises/03_main_coldfusion_constructs" />
 
                 <h1>Chapter #chapterNumber# - Main ColdFusion constructs</h1>
                 <ul>
@@ -98,8 +98,8 @@
             </li>
 
             <li>
-                <cfset chapterNumber = "05" />
-                <cfset folderName    = "exercises/05_functions" />
+                <cfset chapterNumber = "04" />
+                <cfset folderName    = "exercises/04_functions" />
 
                 <h1>Chapter #chapterNumber# - Functions</h1>
                 <ul>
@@ -117,8 +117,8 @@
             </li>
 
             <li>
-                <cfset chapterNumber = "06" />
-                <cfset folderName    = "exercises/06_scopes" />
+                <cfset chapterNumber = "05" />
+                <cfset folderName    = "exercises/05_scopes" />
 
                 <h1>Chapter #chapterNumber# - Scopes</h1>
                 <ul>
@@ -144,8 +144,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "07" />
-                <cfset folderName    = "exercises/07_reusing_code" />
+                <cfset chapterNumber = "06" />
+                <cfset folderName    = "exercises/06_reusing_code" />
 
                 <h1>Chapter #chapterNumber# - Reusing code</h1>
                 <ul>
@@ -163,8 +163,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "08" />
-                <cfset folderName    = "exercises/08_application_cfc" />
+                <cfset chapterNumber = "07" />
+                <cfset folderName    = "exercises/07_application_cfc" />
 
                 <h1>Chapter #chapterNumber# - The Application CFC</h1>
                 <ul>
@@ -177,8 +177,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "09" />
-                <cfset folderName    = "exercises/09_caching" />
+                <cfset chapterNumber = "08" />
+                <cfset folderName    = "exercises/08_caching" />
                 <cfset subsection    = "Section_1_Basics" />
                 <h1>Chapter #chapterNumber# - Caching</h1>
                 <h5>#replace(subsection, '_', ' ', 'ALL')#</h5>
@@ -215,8 +215,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "10" />
-                <cfset folderName    = "exercises/10_database_operations" />
+                <cfset chapterNumber = "09" />
+                <cfset folderName    = "exercises/09_database_operations" />
 
                 <h1>Chapter #chapterNumber# - Basic database operations</h1>
                 <ul>
@@ -239,8 +239,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "11" />
-                <cfset folderName    = "exercises/11_object_oriented_programming" />
+                <cfset chapterNumber = "10" />
+                <cfset folderName    = "exercises/10_object_oriented_programming" />
 
                 <h1>Chapter #chapterNumber# - Object-oriented programming in ColdFusion</h1>
                 <ul>
@@ -288,8 +288,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "12" />
-                <cfset folderName    = "exercises/12_design_patterns" />
+                <cfset chapterNumber = "11" />
+                <cfset folderName    = "exercises/11_design_patterns" />
 
                 <h1>Chapter #chapterNumber# - Design Patterns</h1>
                 <ul>
@@ -344,8 +344,8 @@
             </li>
 
             <li>
-                <cfset chapterNumber = "13" />
-                <cfset folderName    = "exercises/13_ORM" />
+                <cfset chapterNumber = "12" />
+                <cfset folderName    = "exercises/12_ORM" />
 
                 <h1>Chapter #chapterNumber# - An introduction TO ORM</h1>
                 <ul>
@@ -360,8 +360,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "14" />
-                <cfset folderName    = "exercises/14_error_handling" />
+                <cfset chapterNumber = "13" />
+                <cfset folderName    = "exercises/13_error_handling" />
 
                 <h1>Chapter #chapterNumber# - The Basics of Error Handling in ColdFusion</h1>
                 <ul>
@@ -371,8 +371,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "15" />
-                <cfset folderName    = "exercises/15_forms" />
+                <cfset chapterNumber = "14" />
+                <cfset folderName    = "exercises/14_forms" />
 
 
                 <h1>Chapter #chapterNumber# - Bulding applications with forms</h1>
@@ -391,8 +391,8 @@
                 </ul>
             </li>
             <li>
-                <cfset chapterNumber = "16" />
-                <cfset folderName    = "exercises/16_pdf_files" />
+                <cfset chapterNumber = "15" />
+                <cfset folderName    = "exercises/15_pdf_files" />
 
                 <h1>Chapter #chapterNumber# - Generating and manipulating PDF files.</h1>
                 <ul>
@@ -410,6 +410,237 @@
                     <li><a href="#folderName#/08_manipulatingSpreadsheets/index.cfm" target="_blank">Manipulating spreadsheets in ColdFusion</a></li>
                 </ul>
             </li>
+            <li>
+                <cfset chapterNumber = "16" />
+                <cfset folderName    = "exercises/16_coldfusion_rest_api" />
+
+                <h1>Chapter #chapterNumber# - ColdFusion REST APIs</h1>
+
+
+
+<ul>
+<li>Source Code
+<ul>
+
+<li><a href="#folderName#/Customers.txt" target="_blank">Customer Tag Examples</a></li>
+<li><a href="#folderName#/CustomersScriptExample.txt" target="_blank">Customer Script Examples</a></li>
+</ul>
+</li>
+</ul>
+
+
+<ul>
+<li>Outline
+<ul>
+
+<li><a href="#folderName#/outline.pdf" target="_blank">Outline</a></li>
+
+</ul>
+</li>
+</ul>
+
+
+
+                <ul>
+                    <li>HTTP Responses
+                    <ul>
+                    <li><a href="#folderName#/01_http_responses/01_http_success_responses.pdf" target="_blank">Success Responses</a></li>
+                    <li><a href="#folderName#/01_http_responses/02_http_error_responses.pdf" target="_blank">Error Responses</a></li>
+                    <li><a href="#folderName#/01_http_responses/03_http_custom_responses.pdf" target="_blank">Custom Responses</a></li>
+                </ul>
+
+                </li>
+                <li>URL Endpoints
+                <ul>
+                    <li><a href="#folderName#/02_url_endpoints/01_url_endpoint_structure.pdf" target="_blank">URL Structure </a></li>
+                </ul>
+                </li>
+                <li>Creating Services
+                <ul>
+                    <li><a href="#folderName#/03_creating_services/01_directory_components.pdf" target="_blank">Directory Components</a></li>
+                    <li><a href="#folderName#/03_creating_services/02_component_attributes_config.pdf" target="_blank">Component Attributes Config</a></li>
+
+                </ul>
+                </li>
+                <li>
+                    ColdFusion Administrator
+                <ul>
+                    <li><a href="#folderName#/04_coldfusion_admin/01_coldfusion_admin.pdf" target="_blank">ColdFusion Admin 1</a></li>
+                    <li><a href="#folderName#/04_coldfusion_admin/02_coldfusion_admin.pdf" target="_blank">ColdFusion Admin 2</a></li>
+                    <li><a href="#folderName#/04_coldfusion_admin/03_coldfusion_admin.pdf" target="_blank">ColdFusion Admin 3</a></li>
+                    <li><a href="#folderName#/04_coldfusion_admin/04_coldfusion_admin.pdf" target="_blank">ColdFusion Admin 4</a></li>
+                    <li><a href="#folderName#/04_coldfusion_admin/05_coldfusion_admin.pdf" target="_blank">ColdFusion Admin 5</a></li>
+                </ul>
+                </li>
+                <li>
+                    Application CFC
+                <ul>
+                    <li><a href="#folderName#/05_application_cfc/01_application_cfc.pdf" target="_blank">Application CFC 1</a></li>
+                    <li><a href="#folderName#/05_application_cfc/02_application_cfc.pdf" target="_blank">Application CFC 2</a></li>
+                    <li><a href="#folderName#/05_application_cfc/03_application_cfc.pdf" target="_blank">Application CFC 3</a></li>
+                    <li><a href="#folderName#/05_application_cfc/04_application_cfc.pdf" target="_blank">Application CFC 4</a></li>
+                </ul>
+                </li>
+                <li>
+                    Sample Applications
+                <ul>
+                    <li><a href="#folderName#/06_sample_applications/01_sample_application_code.pdf" target="_blank">Sample Applications 1</a></li>
+                    <li><a href="#folderName#/06_sample_applications/02_sample_application_code.pdf" target="_blank">Sample Applications 2</a></li>
+                    <li><a href="#folderName#/06_sample_applications/03_sample_application_code.pdf" target="_blank">Sample Applications 3</a></li>
+                    <li><a href="#folderName#/06_sample_applications/04_sample_application_code.pdf" target="_blank">Sample Applications 4</a></li>
+                    <li><a href="#folderName#/06_sample_applications/05_sample_application_code.pdf" target="_blank">Sample Applications 5</a></li>
+                    <li><a href="#folderName#/06_sample_applications/06_sample_application_code.pdf" target="_blank">Sample Applications 6</a></li>
+                    <li><a href="#folderName#/06_sample_applications/07_sample_application_code.pdf" target="_blank">Sample Applications 7</a></li>
+                    <li><a href="#folderName#/06_sample_applications/08_sample_application_code.pdf" target="_blank">Sample Applications 8</a></li>
+                    <li><a href="#folderName#/06_sample_applications/09_sample_application_code.pdf" target="_blank">Sample Applications 9</a></li>
+                    <li><a href="#folderName#/06_sample_applications/10_sample_application_code.pdf" target="_blank">Sample Applications 10</a></li>
+                    <li><a href="#folderName#/06_sample_applications/11_sample_application_code.pdf" target="_blank">Sample Applications 11</a></li>
+                    <li><a href="#folderName#/06_sample_applications/12_sample_application_code.pdf" target="_blank">Sample Applications 12</a></li>
+                    <li><a href="#folderName#/06_sample_applications/13_sample_application_code.pdf" target="_blank">Sample Applications 13</a></li>
+                    <li><a href="#folderName#/06_sample_applications/14_sample_application_code.pdf" target="_blank">Sample Applications 14</a></li>
+
+                </ul>
+                </li>
+
+                <li>
+                    Subresources
+                <ul>
+                    <li><a href="#folderName#/07_subresources/01_subresources.pdf" target="_blank">Subresources 1</a></li>
+                    <li><a href="#folderName#/07_subresources/02_subresources.pdf" target="_blank">Subresources 2</a></li>
+                    <li><a href="#folderName#/07_subresources/03_subresources.pdf" target="_blank">Subresources 3</a></li>
+                    <li><a href="#folderName#/07_subresources/04_subresources.pdf" target="_blank">Subresources 4</a></li>
+                    <li><a href="#folderName#/07_subresources/05_subresources.pdf" target="_blank">Subresources 5</a></li>
+                    <li><a href="#folderName#/07_subresources/06_subresources.pdf" target="_blank">Subresources 6</a></li>
+                    <li><a href="#folderName#/07_subresources/07_subresources.pdf" target="_blank">Subresources 7</a></li>
+                    <li><a href="#folderName#/07_subresources/08_subresources.pdf" target="_blank">Subresources 8</a></li>
+                    <li><a href="#folderName#/07_subresources/09_subresources.pdf" target="_blank">Subresources 9</a></li>
+
+                </ul>
+                </li>
+                </ul>
+
+            </li>
+
+            <li>
+                <cfset chapterNumber = "17" />
+                <cfset folderName    = "exercises/17_api_manager" />
+
+                <h1>Chapter #chapterNumber# - Adobe ColdFusion API Manager</h1>
+
+<ul>
+<li>Outline
+<ul>
+<li><a href="#folderName#/outline.pdf" target="_blank">Outline</a></li>
+</ul>
+
+
+
+                <ul>
+                <li>Configurations
+                <ul>
+                <li><a href="#folderName#/01_configurations/01_configs.pdf" target="_blank">Configurations</a></li>
+                <li><a href="#folderName#/01_configurations/02_downloads.pdf" target="_blank">Downloads</a></li>
+                <li><a href="#folderName#/01_configurations/03_url_structure.pdf" target="_blank">URL Structure</a></li>
+                </ul>
+                </li>
+                <li>Create and Publish
+                <ul>
+                <li><a href="#folderName#/02_create_publish/01_create_and_publish.pdf" target="_blank">Create and Publish</a></li>
+                <li><a href="#folderName#/02_create_publish/02_manual_creation_authentication.pdf" target="_blank">Manual Creation Authentication</a></li>
+                <li><a href="#folderName#/02_create_publish/03_manual_creation_create_rest.pdf" target="_blank">Manual Creation Create Rest</a></li>
+                <li><a href="#folderName#/02_create_publish/04_import_rest_from_coldfusion.pdf" target="_blank">Import REST From ColdFusion</a></li>
+                <li><a href="#folderName#/02_create_publish/05_import_rest_git_samples.pdf" target="_blank">Import REST GIT Samples</a></li>
+                <li><a href="#folderName#/02_create_publish/06_import_rest_from_coldfusion_path.pdf" target="_blank">Import REST From ColdFusion Path</a></li>
+                <li><a href="#folderName#/02_create_publish/07_import_rest_discovery.pdf" target="_blank">Import REST Discovery</a></li>
+                <li><a href="#folderName#/02_create_publish/08_import_rest_configurations_server.pdf" target="_blank">Import REST Configurations Server</a></li>
+                <li><a href="#folderName#/02_create_publish/09_import_rest_configured_import.pdf" target="_blank">Import REST Configured Imports</a></li>
+                <li><a href="#folderName#/02_create_publish/10_import_rest_completed.pdf" target="_blank">Import REST Completed</a></li>
+                <li><a href="#folderName#/02_create_publish/11_swagger.pdf" target="_blank">Swagger</a></li>
+                <li><a href="#folderName#/02_create_publish/12_swagger_create.pdf" target="_blank">Swagger Create</a></li>
+                <li><a href="#folderName#/02_create_publish/13_soap_to_rest.pdf" target="_blank">SOAP to REST</a></li>
+                <li><a href="#folderName#/02_create_publish/14_soap_to_rest_wsdl_fetch.pdf" target="_blank">SOAP to REST WSDL Fetch</a></li>
+                <li><a href="#folderName#/02_create_publish/15_soap_api_create.pdf" target="_blank">SOAP API Create</a></li>
+                <li><a href="#folderName#/02_create_publish/16_soap_create_wsdl_fetch.pdf" target="_blank">SOAP Create WSDL Fetch</a></li>
+
+
+                </ul>
+                </li>
+                <li>Versions and Lifecycles
+                <ul>
+                    <li><a href="#folderName#/03_versions_lifecycles/01_versions_lifecycles_outline.pdf" target="_blank">Versions and Lifecycles</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/02_catalog_blueprint_authentication.pdf" target="_blank">Catalog Blueprint</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/03_catalog_blueprint_listings.pdf" target="_blank">Catalog Blueprint Listings</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/04_subcribe_menu.pdf" target="_blank">Subscribe Menu</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/05_subscription_levels.pdf" target="_blank">Subscription Levels</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/06_completed_subscription.pdf" target="_blank">Completed Subscriptions</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/07_verify_subscriptions.pdf" target="_blank">Verify Subscriptions</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/08_verify_subscriptions_publishers.pdf" target="_blank">Verify Subscriptions Publishers</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/09_publisher_versus_subscriber.pdf" target="_blank">Publisher Versus Subscriber</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/10_notifications.pdf" target="_blank">Notifications</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/11_version_changes.pdf" target="_blank">Version Changes</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/12_version_changes_structure.pdf" target="_blank">Version Changes Structure</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/13_all_versions_available.pdf" target="_blank">Versions Available</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/14_deprecation_end_of_life.pdf" target="_blank">Deprecation End of Life</a></li>
+                    <li><a href="#folderName#/03_versions_lifecycles/15_managing_change.pdf" target="_blank">Managing Change</a></li>
+
+                </ul>
+                </li>
+                <li>
+                    Rate Limiting
+                <ul>
+                    <li><a href="#folderName#/04_rate_limiting/01.pdf" target="_blank">Rate Limiting and Throttling 1</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/02.pdf" target="_blank">Rate Limiting and Throttling 2</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/03.pdf" target="_blank">Rate Limiting and Throttling 3</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/04.pdf" target="_blank">Rate Limiting and Throttling 4</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/05.pdf" target="_blank">Rate Limiting and Throttling 5</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/06.pdf" target="_blank">Rate Limiting and Throttling 6</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/07.pdf" target="_blank">Rate Limiting and Throttling 7</a></li>
+                    <li><a href="#folderName#/04_rate_limiting/08.pdf" target="_blank">Rate Limiting and Throttling 8</a></li>
+                </ul>
+                </li>
+                <li>
+                    Security
+                <ul>
+
+                    <li><a href="#folderName#/05_security/01_outline.pdf" target="_blank">Outline</a></li>
+                    <li><a href="#folderName#/05_security/02_api_keys.pdf" target="_blank">API Keys</a></li>
+                    <li><a href="#folderName#/05_security/03_user_stores.pdf" target="_blank">User Stores</a></li>
+                    <li><a href="#folderName#/05_security/04_user_stores_database.pdf" target="_blank">User Stores Database</a></li>
+                    <li><a href="#folderName#/05_security/05_user_stores_database_configs.pdf" target="_blank">User Stores Database Configs</a></li>
+                    <li><a href="#folderName#/05_security/06_user_stores_javascript.pdf" target="_blank">User Stores Javascript</a></li>
+                    <li><a href="#folderName#/05_security/07_user_stores_javascript_sample.pdf" target="_blank">User Stores Javascript Sample</a></li>
+                    <li><a href="#folderName#/05_security/08_user_stores_js_coldfusion_sample.pdf" target="_blank">ColdFusion Sample</a></li>
+                    <li><a href="#folderName#/05_security/09_user_stores_js_published.pdf" target="_blank">User Stores JS Published</a></li>
+                    <li><a href="#folderName#/05_security/10_user_stores_publisher_selection.pdf" target="_blank">User Stores Publisher Selection</a></li>
+                    <li><a href="#folderName#/05_security/11_user_stores_selections.pdf" target="_blank">User Stores Selections</a></li>
+                    <li><a href="#folderName#/05_security/12_user_stores_selection_configuration.pdf" target="_blank">User Stores Selection Configuration</a></li>
+                    <li><a href="#folderName#/05_security/13_user_stores_grant_types.pdf" target="_blank">User Stores Grant Types</a></li>
+                    <li><a href="#folderName#/05_security/14_user_stores_oauth_selections.pdf" target="_blank">User Stores OAuth Selections</a></li>
+                    <li><a href="#folderName#/05_security/15_produces_oauth_flow_run.pdf" target="_blank">Produces OAuth Flow Run</a></li>
+                    <li><a href="#folderName#/05_security/16_endpoint_apply_oauth.pdf" target="_blank">Endpoint Apply OAuth</a></li>
+
+                </ul>
+                </li>
+
+                <li>
+                    Alerts and Monitors
+                <ul>
+                <li><a href="#folderName#/06_alerts_monitors/01_outline.pdf" target="_blank">Alerts and Monitors</a></li>
+                </ul>
+                </li>
+                <li>
+                    Policies and Controls
+                <ul>
+                <li><a href="#folderName#/07_policies_controls/01_outine.pdf" target="_blank">Policies and Controls</a></li>
+
+                </ul>
+                </li>
+
+                </ul>
+
+            </li>
+
+
         </ul>
     </main>
 </body>

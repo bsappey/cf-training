@@ -1,0 +1,104 @@
+*
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body
+{
+	height: 100%;
+}
+
+.header-grid
+{
+	display: grid;
+	grid-template-columns: repeat( 2, 1fr );
+	grid-auto-rows: minmax( 85px, auto );
+	background: #82AFC4;
+	padding: .5em .5em 0em .5em;
+}
+
+header
+{
+	font-size: 2em;
+	grid-column: 1 / 4;
+}
+
+nav
+{
+	grid-column: 4 / 7;
+}
+
+nav ul.main-menu
+{
+	padding-left: 0em;
+}
+
+nav ul.main-menu li
+{
+	display: inline;
+	background: #9C6358;
+	padding: .5em;
+	border-radius: 4px;
+}
+
+nav ul.main-menu li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul.main-menu li a:hover
+{
+	text-decoration: underline;
+}
+
+.page-content-wrapper
+{
+	padding-left: 2em;
+	padding-bottom: 2em;
+}
+
+.author-info
+{
+	padding-bottom: 1em;
+}
+
+.status-box
+{
+	padding: 1em;
+	background: #9C6358;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	/* width: 70px; */
+}
+
+footer
+{
+	padding: 2em;
+	align-self: center;
+	justify-self: center;
+	background: #82AFC4;
+}
+
+#frmLogin, #frmProfile, #frmBlog
+{
+	display: grid;
+	grid-gap: 20px;
+}
+
+#frmLogin label, #frmProfile label, #frmBlog label
+{
+	display: block;
+}
+
+#frmProfile input, #frmBlog input
+{
+	width: 500px;
+}
+
+#frmLogin textarea, #frmProfile textarea, #frmBlog textarea
+{
+	width: 500px;
+	height: 350px;
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<DDX xmlns="http://ns.adobe.com/DDX/1.0/"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://ns.adobe.com/DDX/1.0/ coldfusion_ddx.xsd"> 
+<PDF result="Out1"> 
+	<PDF source="Doc0"/> 
+	
+	<TableOfContents maxBookmarkLevel="3" bookmarkTitle="Table of Contents" 
+    includeInTOC="false"> 
+        <Header styleReference="TOCheaderStyle"/> 
+        <Footer styleReference="TOCFooterStyle"/> 
+    </TableOfContents> 
+    <PDFGroup> 
+        <Footer styleReference="FooterStyle"/> 
+        <PDF source="Doc1"/> 
+        <PDF source="Doc2"/> 
+        <PDF source="Doc3"/> 
+        <PDF source="Doc4"/> 
+    </PDFGroup> 
+    </PDF> 
+ 
+    <StyleProfile name="TOCheaderStyle"> 
+    <Header> 
+        <Center> 
+            <StyledText> 
+            <p color="red" font-weight="bold" font="Arial">Table of Contents</p> 
+            </StyledText> 
+        </Center> 
+    </Header> 
+    </StyleProfile> 
+ 
+    <StyleProfile name="TOCFooterStyle"> 
+    <Footer> 
+        <Right> 
+            <StyledText> 
+            <p font-size="9pt">Page <_PageNumber/> of <_LastPageNumber/></p> 
+            </StyledText> 
+        </Right> 
+    </Footer> 
+    </StyleProfile> 
+     
+    <StyleProfile name="FooterStyle"> 
+    <Footer> 
+        <Left> 
+            <StyledText> 
+            <p font-size="9pt"><i>CFML Reference</i></p> 
+            </StyledText> 
+        </Left> 
+        <Right> 
+            <StyledText> 
+            <p font-size="9pt">Page <_PageNumber/> of <_LastPageNumber/></p> 
+            </StyledText> 
+        </Right> 
+    </Footer> 
+    </StyleProfile> 
+ 
+</DDX>
