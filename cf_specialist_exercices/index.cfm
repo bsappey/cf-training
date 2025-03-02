@@ -84,7 +84,7 @@
                     <li><a href="#folderName#/03_simpleIfTag.cfm" target="_blank">Simple if in tag syntax.</a></li>
                     <li><a href="#folderName#/04_comparisonOp.cfm" target="_blank">Comparison operators.</a></li>
                     <li><a href="#folderName#/05_ternaryOperator.cfm" target="_blank">The ternary operator.</a></li>
-                    <li><a href="#folderName#/07_switchCase.cfm" target="_blank">The Switch / Case construct.</a></li>
+                    <li><a href="#folderName#/06_switchCase.cfm" target="_blank">The Switch / Case construct.</a></li>
                     <li><a href="#folderName#/07_break.cfm" target="_blank">The Break keyword.</a></li>
                     <li><a href="#folderName#/08_ifInSwitchCase.cfm" target="_blank">If statement in a Swich / Case.</a></li>
                     <li><a href="#folderName#/09_forLoop.cfm" target="_blank">Reviewing the For loop.</a></li>
