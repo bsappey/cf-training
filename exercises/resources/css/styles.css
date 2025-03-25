@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+*{
+    box-sizing: inherit;
+}
+body{
+    font-family: Ubuntu, Verdana, Arial, sans-serif;
+    font-size: 1rem;
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+header{
+    background-color: rgba(56,99,119,.8);
+    height: 50px;
+    width:100%;
+    position: fixed;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header h1{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3em;
+}
+header p{
+    margin: 0;
+    color: rgb(190,216,235);
+}
+main {
+    padding: 30px;
+    width: 960px;
+    margin: 0 auto;
+    background-color: rgba(255,255,255,.7);
+    border-radius: 5px;
+}
+main > ul {
+    list-style: none;
+}
+main a{
+    color: rgb(56,99,119);
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
