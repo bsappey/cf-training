@@ -3,7 +3,7 @@ component
 	
 	this.applicationTimeout = CreateTimeSpan( 5, 0, 0, 0 ); // 5 days
 
-	include "../../../ressources/config/appSettings.cfm";
+	include "../../../resources/config/appSettings.cfm";
 	this.name = "Blog_App_" & left( hash( getCurrentTemplatePath()), 64 );
 	this.customTagPaths       = ExpandPath( './customTags/' );
 	this.mappings[ "/model" ] = getDirectoryFromPath(getCurrentTemplatePath()) & "model/";
@@ -14,7 +14,7 @@ component
 	// This prevents the cookie from being read from JavaScript. 
 	this.sessioncookie.httpOnly = true;
 
-	include "../../../ressources/config/onRequestMethod.cfm";
+	include "../../../resources/config/onRequestMethod.cfm";
 
 	public boolean function onApplicationStart() 
 	{

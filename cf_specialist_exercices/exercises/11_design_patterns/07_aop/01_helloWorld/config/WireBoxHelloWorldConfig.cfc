@@ -14,7 +14,7 @@ component extends="WireBox.system.ioc.config.Binder"
 			},
 
 			// which folder contains the CFCs we want to use with AOP
-			scanLocations = [ "exercises.12_design_patterns.07_aop.01_helloWorld.models" ]
+			scanLocations = [ "exercises.11_design_patterns.07_aop.01_helloWorld.models" ]
 		};
 	}	
 }

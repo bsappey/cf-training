@@ -1,10 +1,10 @@
 component 
 {
-	include "../../../ressources/config/AppSettings.cfm";
+	include "../../../resources/config/AppSettings.cfm";
 
     this.customTagPaths = expandPath("./myCustomTags");
 
 
-	include "../../../ressources/config/onApplicationStartMethod.cfm";
-	include "../../../ressources/config/onRequestMethod.cfm";
+	include "../../../resources/config/onApplicationStartMethod.cfm";
+	include "../../../resources/config/onRequestMethod.cfm";
 }

@@ -1,5 +1,5 @@
 component {
-    variables.dbPath = expandPath("/ressources/database/Derby/");
+    variables.dbPath = expandPath("/resources/database/Derby/");
 
 	this.name = "11_07_managingRelationships";
 	this.applicationTimeout = createTimeSpan(0,2,0,0); //2h
@@ -26,7 +26,7 @@ component {
         }
         if ( !DirectoryExists( variables.dbPath ) ) 
         {
-            include "/ressources/database/buildDB.cfm";
+            include "/resources/database/buildDB.cfm";
         }
 
         include arguments.targetPage;

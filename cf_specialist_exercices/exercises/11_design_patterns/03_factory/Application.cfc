@@ -1,6 +1,6 @@
 component
 {
-	variables.dbPath = expandPath("/ressources/database/Derby/");
+	variables.dbPath = expandPath("/resources/database/Derby/");
 	
 	this.name 			   = "FactoryDemoApp";
     this.datasource    	   = "CFTrainingDSN";

@@ -1,4 +1,7 @@
+
+<cfset queryOptions = {datasource = "CFTrainingDSN"}/>
 <cfscript>
+
 
 	myQuery = queryExecute('select * from tusers');
 	cachePut('mySampleQuery', myQuery, createTimespan(0,1,0,0), createTimespan(0,0,15,0));

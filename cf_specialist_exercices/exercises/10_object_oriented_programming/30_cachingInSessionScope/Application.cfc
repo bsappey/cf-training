@@ -1,7 +1,7 @@
 component
 {
-    include "../../../ressources/config/appSettings.cfm";
-	include "../../../ressources/config/onRequestMethod.cfm";
+    include "../../../resources/config/appSettings.cfm";
+	include "../../../resources/config/onRequestMethod.cfm";
 	this.name = "10_28_cachingSessionScope";
 
 	this.mappings[ "/model" ] = getDirectoryFromPath(getCurrentTemplatePath()) & "model/";

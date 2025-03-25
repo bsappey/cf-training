@@ -67,7 +67,7 @@
                     <li><a href="#folderName#/13_exploringArrayFunctions.cfm" target="_blank">Exploring Array Functions.</a></li>
                     <li><a href="#folderName#/14_creatingStructs.cfm" target="_blank">Creating structures</a></li>
                     <li><a href="#folderName#/15_keysInStruct.cfm" target="_blank">About keynames in structures.</a></li>
-                    <li><a href="#folderName#/15_findingInStructs.cfm" target="_blank">Finding items in structures</a></li>
+                    <li><a href="#folderName#/16_findingInStructs.cfm" target="_blank">Finding items in structures</a></li>
                     <li><a href="#folderName#/17_mergingAndCopyingStruct.cfm" target="_blank">Merging and copying structures</a></li>
                     <li><a href="#folderName#/18_shallowCopyVsDeepCopy.cfm" target="_blank">Passing data by value or by reference</a></li>
                     <li><a href="#folderName#/19_nullSupport.cfm" target="_blank">Null Support in ColdFusion</a></li>
@@ -262,7 +262,7 @@
                     </li>
                     <li><a href="#folderName#/11_individualGettersAndSetters/index.cfm" target="_blank">Individual getters and setters.</a></li>
                     <li><a href="#folderName#/12_aboutInheritance/index.cfm" target="_blank">Inheritance: the &laquo;is a&raquo; relationship.</a></li>
-                    <li><a href="#folderName#/14_extendsKeyword/index.cfm" target="_blank">Using the &laquo;extend&raquo; attribute.</a></li>
+                    <li><a href="#folderName#/13_extendsKeyword/index.cfm" target="_blank">Using the &laquo;extend&raquo; attribute.</a></li>
                     <li><a href="#folderName#/14_superKeyword/index.cfm" target="_blank">The &laquo;super&raquo; keyword.</a></li>
                     <li><a href="#folderName#/15_multiLevelInheritance/index.cfm" target="_blank">Multi-level inheritance.</a></li>
                     <li><a href="#folderName#/16_abstractComponents/index.cfm" target="_blank">Using abstract components.</a></li>
@@ -284,7 +284,7 @@
                     <li>Building a model layer in your app.</li>
                     <li><a href="#folderName#/29_cachingApplicationScope/index.cfm" target="_blank">Caching component instances in the Application scope.</a></li>
                     <li><a href="#folderName#/30_cachingInSessionScope/index.cfm" target="_blank">Caching in the session scope.</a></li>
-                    <li><a href="#folderName#/31_cachingVariables.cfm" target="_blank">Caching variables.</a></li>
+                 <!---   <li><a href="#folderName#/31_cachingVariables.cfm" target="_blank">Caching variables.</a></li>--->
                 </ul>
             </li>
             <li>

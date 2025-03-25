@@ -2,7 +2,7 @@ component extends="WireBox.system.ioc.config.Binder"
 {
 	function configure(){		
 
-		var modelsDir = "exercises.12_design_patterns.07_aop.03_tryCatch.models";
+		var modelsDir = "exercises.11_design_patterns.07_aop.03_tryCatch.models";
 
 		// The WireBox configuration structure DSL
 		wireBox = {
