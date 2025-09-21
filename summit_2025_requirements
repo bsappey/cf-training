@@ -1,0 +1,50 @@
+Certification Requirements
+To be prepared for the certification class please download and configure the items below.
+1. Please bring a personal device to review and code along with source code samples during
+the live workshop.
+
+2. Ensure you have admin privileges on your machine, or at a minimum be able to run a
+local ColdFusion server. If you prefer to run this on a remote server, please ensure that
+you can push the source files to the remote server.
+
+3. ColdFusion 2021 or ColdFusion 2023 (will review installation, links below for
+downloads) will need to be installed on the machine.
+
+4. Source files can be downloaded from GitHub and installed locally on your machine. All
+source files can run independent of external servers and databases.
+
+Downloads
+ColdFusion Zip Installers:
+https://helpx.adobe.com/coldfusion/using/install-coldfusion-2021.html
+
+Commandbox (not required if you already run a CF server)
+https://commandbox.ortusbooks.com/setup/download
+
+GitHub (source files)
+https://github.com/bsappey/cf-training/cf_training_exercises_2025.zip
+
+IDE
+VSCode (Adobe ColdFusion Builder) - IDE
+Download: https://marketplace.visualstudio.com/_apis/public/gallery/publishers/com-adobe-
+coldfusion/vsextensions/adobe-cfml-lsp/1.0.443/vspackage
+
+Coding can feel tedious when dealing with complex codes, language overload, syntax errors, etc.
+The all-new Adobe ColdFusion Builder plug-in on VS Code helps developers to edit and validate
+code, manage files and projects, debugging and scan for security vulnerabilities. Download now
+and get easy access to data sources on your server with tools that let you run queries without
+installing an external client.
+
+Where can I learn how to use the extension
+You can go to https://www.adobe.com/go/cfb_ext_gs_vscode to learn how to create ColdFusion
+Projects, as well as use the other features to load and build your projects using the extension.
+
+Can this extension help you?
+Integrate the Adobe ColdFusion Builder Extension on your VS Code to:
+• Automate repetitive tasks and navigate code for a smoother and faster process.
+• Enjoy built-in support for IntelliSense code completion, better semantic code
+understanding, and code refactoring.
+• Identify security vulnerabilities and maintain the integrity of your code.
+• Manage your work with extensions, remote project support, integrated server
+management, a log viewer, and more!
+• Customize every feature to your liking by creating shortcuts, easily formatting and
+reusing code, and using powerful extensions to better your best.
