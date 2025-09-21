@@ -1,3 +1,5 @@
+https://auth.services.adobe.com/en_US/index.html?callback=https%3A%2F%2Fims-na1.adobelogin.com%2Fims%2Fadobeid%2Frockwell-certification%2FAdobeID%2Ftoken%3Fredirect_uri%3Dhttps%253A%252F%252Fcertification.adobe.com%26code_challenge_method%3Dplain%26use_ms_for_expiry%3Dtrue&client_id=rockwell-certification&scope=openid%2CAdobeID%2Cprofile%2Cemail%2Cadditional_info.secondary_email%2Caddress%2Cpps.read&relay=25c7f22e-b5f8-47b5-9ae2-0de943951aa3&locale=en_US&flow_type=token&idp_flow_type=login&ab_test=clear-state%2Cgroup-transitions&s_p=google%2Cfacebook%2Capple%2Cmicrosoft%2Cline%2Ckakao&response_type=token&code_challenge_method=plain&redirect_uri=https%3A%2F%2Fcertification.adobe.com&use_ms_for_expiry=true#/
+
 Certification Requirements
 To be prepared for the certification class please download and configure the items below.
 1. Please bring a personal device to review and code along with source code samples during
