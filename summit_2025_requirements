@@ -1,3 +1,15 @@
+AOP - Composition
+    Uses: Data Processing and doc generation
+Attributes: Weaving - intercepts method calls to add behavior
+Attributes: Composition - method intercepts rather than inheritance 
+
+Hollywood - Inheritance
+    Uses: logging, security, transactins
+Attributes: template method pattern - skeleton of code think base or parent class
+Attributes : inversion control parent calls controls behavior
+Attributes: inheritance - class inheritance to define behavior
+
+
 https://certification.adobe.com/onsite
 
 Certification Requirements
